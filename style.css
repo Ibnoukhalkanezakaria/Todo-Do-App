@@ -23,6 +23,7 @@ body {
 }
 .wrapper {
   max-width: 405px;
+
   padding: 28px 0 30px;
   margin: 137px auto;
   background: #fff;
@@ -106,6 +107,8 @@ li {
   margin-top: 20px;
   margin-right: 5px;
   padding: 0 20px 10px 25px;
+  max-height: 300px;
+  overflow-y: auto;
 }
 .task-box.overflow {
   overflow-y: auto;
